@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asian Tours</title>
+  </head>
+  <body>
+    <h1>Asian Tours Schedule June 2024</h1>
+    <main>
+      <ul>
+        {% for tour in tours %}
+        <li>{{ tour }}</li>
+        {% endfor %}
+      </ul>
+    </main>
+  </body>
+</html>
