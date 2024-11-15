@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Django is Awesome</title>
+    <link rel="stylesheet" href="{% static 'styles/styles.css' %}" />
+    <script src="{% static 'js/script.js' %}" defer></script>
+  </head>
+  <body>
+    <h1>Welcome to Django</h1>
+    <p>
+      Django is a high-level Python web framework that encourages rapid
+      development and clean, pragmatic design. It emphasizes reusability, less
+      code, and the principle of "don't repeat yourself." With its robust set of
+      built-in features, like an ORM, authentication, and admin interface,
+      Django allows developers to focus on writing their applications without
+      reinventing the wheel, making it an essential tool for web development.
+    </p>
+
+    <img src="{% static 'images/dlogo.png' %}" alt="" />
+  </body>
+</html>
